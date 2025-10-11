@@ -1,28 +1,20 @@
 {
   "name": "mypalmsmart-backend",
   "version": "1.0.0",
-  "description": "Backend for MyPalmSmart App with WebSocket",
+  "description": "Backend for MyPalmSmart App",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "express",
-    "websocket",
-    "mysql"
-  ],
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "engines": {
-    "node": "18.x"
-  },
   "dependencies": {
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
     "express": "^4.19.2",
-    "mysql2": "^3.10.0",
-    "ws": "^8.17.1"
+    "mysql2": "^3.10.0"
   },
   "devDependencies": {}
 }
